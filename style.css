@@ -8,7 +8,7 @@ body {
 }
 
 
-/*레이아웃*/
+/*레이아웃=>✨ l_wrapper는 레이아웃만 담당한다*/
 .l_wrapper {
     margin: 0 auto;
     width:1200px;
@@ -20,8 +20,13 @@ body {
     height: 100vh;
     width: 100%;
 }
+.timeline{
+    background-color: rgb(255 255 255 / .4); /*✨ rgb 코드=> rgb(rgb코드/투명도)*/
+    margin: 0 auto;
 
-.header {
+}
+
+.timeline-header {
     height: 100px;
     width: 100px;
 }
@@ -30,4 +35,7 @@ h1{
     color: white;
     font-size: 40px;
     font-weight: bold;
+}
+.timeline-content{
+    
 }
