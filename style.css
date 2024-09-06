@@ -26,6 +26,7 @@ li {
     list-style-type: none;
 }
 
+/*💖컴포넌트의 레이아웃을 변경하고자 할 때, 상위에 레이아웃을 담당하는 요소를 추가하는 것이 좋다*/
 
 /*레이아웃=>✨ l_wrapper는 레이아웃만 담당한다*/
 .l_wrapper {
@@ -37,7 +38,7 @@ li {
 /*컴포넌트*/
 body {
     background-color: dodgerblue;
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -45,7 +46,7 @@ body {
     background-color: rgb(255 255 255 / .4);
     /*✨ rgb 코드=> rgb(rgb코드/투명도)*/
     margin: 0 auto;
-    height: 100vh;
+    height: 100%;
     max-width: 800px;
 
 }
@@ -93,6 +94,10 @@ li:nth-child(odd) {
     flex-flow: column;
     background-color: white;
     margin-bottom: -100px;
+}
+
+li:last-child{
+    margin-bottom: 100px;
 }
 
 
